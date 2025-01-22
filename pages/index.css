@@ -120,21 +120,35 @@
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.recipes {
 }
 
 .recipes__title {
+  padding: 100px 0 24px 80px;
+  max-width: 580px;
 }
 
 .recipes__subtitle {
 }
 
 .recipes__videos {
+  /* remover border e definir height e width */
+  display: flex;
 }
 
 .recipes__video-item {
 }
 
 .recipes__iframe {
+  border: 0;
 }
 
 .recipes__video-caption {
