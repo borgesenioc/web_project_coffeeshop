@@ -1,5 +1,4 @@
 .page {
-  background-color: #ffffff;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -112,4 +111,30 @@
 .header__footer-paragraph {
   margin: 0;
   padding: 0;
+}
+
+.content {
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.recipes__title {
+}
+
+.recipes__subtitle {
+}
+
+.recipes__videos {
+}
+
+.recipes__video-item {
+}
+
+.recipes__iframe {
+}
+
+.recipes__video-caption {
 }
