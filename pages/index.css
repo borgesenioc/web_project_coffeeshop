@@ -102,13 +102,8 @@
   margin-top: auto;
   color: #838383;
 }
-.header__footer-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-.header__footer-paragraph {
+.header__paragraph {
   margin: 0;
   padding: 0;
 }
