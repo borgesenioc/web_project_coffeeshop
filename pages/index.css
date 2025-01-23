@@ -137,6 +137,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .recipes__subtitle {
@@ -149,7 +150,6 @@
 }
 
 .recipes__videos {
-  /* remover border e definir height e width */
   display: flex;
   justify-content: center;
   column-gap: 40px;
