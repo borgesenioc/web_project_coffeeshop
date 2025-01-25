@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  background-color: #0a2750;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+}
+
+.footer__column-heading {
+}
+
+.footer__list {
+}
+
+.footer__list-item {
+}
+
+.footer__column-link {
+}
+
+.footer__social-icon {
+}
