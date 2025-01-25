@@ -175,3 +175,37 @@
   position: absolute;
   right: 0;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reservation__title {
+  margin: 100px 0 0 0;
+}
+
+.form {
+}
+
+.reservation__form {
+  margin: 80px 0 120px 0;
+}
+
+.form__fieldset {
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+}
