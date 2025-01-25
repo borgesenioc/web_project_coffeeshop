@@ -105,23 +105,38 @@
             <fieldset class="form__fieldset">
               <label class="form__label">
                 Nome *
-                <input type="text" class="form__input" />
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Nome"
+                  required
+                />
               </label>
               <label class="form__label">
                 Numero de convidados *
-                <input type="number" class="form__input" />
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
               </label>
               <label class="form__label">
                 Data e Hora *
-                <input type="datetime-local" class="form__input" />
+                <input type="datetime-local" class="form__input" required />
               </label>
               <label class="form__label">
                 Seu e-mail *
-                <input type="email" class="form__input" />
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                  required
+                />
               </label>
               <button class="form__button">Reservar uma mesa</button>
               <label class="form__checkbox">
-                <input type="checkbox" class="form__input" />
+                <input type="checkbox" class="form__input" required />
                 <span>Eu concordo com os termos de uso</span>
               </label>
             </fieldset>
