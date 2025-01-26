@@ -5,6 +5,7 @@
   color: #ffffff;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 
 .footer__circle {
@@ -66,4 +67,5 @@
 .footer__copyright {
   margin: 0;
   padding: 108px 0 60px 80px;
+  font-weight: normal;
 }
