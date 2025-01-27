@@ -30,6 +30,7 @@
 
 .footer__social-heading {
   margin: 0;
+  font-size: 16px;
   padding-bottom: 20px;
   text-align: center;
   font-weight: bold;
@@ -57,11 +58,17 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin: 0;
+  padding: 0;
   padding-right: 10px;
   vertical-align: middle;
 }
 
 .footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-link:focus {
   color: #c1c1c1;
 }
 
